@@ -1,0 +1,130 @@
+header{
+
+    background-color: azure;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.contenedor{
+
+
+    background-color: rgba(234, 237, 239, 0.805);
+    padding-top: 50px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow-y: visible;
+}
+
+h1{
+
+    border: 1px solid greenyellow;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.caja{
+
+    
+    border: solid 1px red;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.encabezado-foto{
+
+    border: solid 1px blue;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+.titulo{
+
+    border: solid 1px red;
+    width: 30%;
+    height: 40%;
+    margin-left: 10px;
+    
+}
+
+
+.fecha{
+
+    display: flex;
+
+    border: solid 1px red;
+    width: 20%;
+    height: 40%;
+    margin-right: 2%;
+    margin-left: 50%;
+    justify-content: flex-end;
+    
+    
+    
+}
+
+span{
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fecha span{
+
+    color: gray;
+    font-size: 16px;
+}
+
+.imagen-1{
+
+
+
+    border: solid 1px blue;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    
+    background-image: url('https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/dachshund.jpg?crop=1.00xw:0.668xh;0,0.260xh');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+}
+
+
+
+.comentario{    
+
+    border: solid 1px blue;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    
+    
+
+
+
+}
+
+.comentario p{
+
+    padding: 10px;
+}
+
+
+
