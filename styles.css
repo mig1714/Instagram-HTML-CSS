@@ -1,7 +1,14 @@
+
+body{
+
+
+    background-color: rgba(167, 178, 186, 0.367);
+}
+
 header{
 
-    background-color: azure;
-    border: 1px solid black;
+    background-color: #F8F8FF;
+    
     height: 100px;
     display: flex;
     align-items: center;
@@ -11,17 +18,24 @@ header{
 .contenedor{
 
 
-    background-color: rgba(234, 237, 239, 0.805);
+    display: flex;
+    flex-direction: column;
+    
     padding-top: 50px;
     height: 100vh;
     width: 100vw;
     margin: 0;
-    overflow-y: visible;
+    gap: 100px;
+    
+    
+    align-items: center;
+   
+    
 }
 
 h1{
 
-    border: 1px solid greenyellow;
+    
     width: 50%;
     margin: 0 auto;
     
@@ -29,20 +43,22 @@ h1{
 
 .caja{
 
+    background-color: #F8F8FF;
     
-    border: solid 1px red;
     width: 50%;
-    height: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 100%;
+    
+    margin: 20px;
+    
+    flex-shrink: 0;
+    
     
     
 }
 
 .encabezado-foto{
 
-    border: solid 1px blue;
+    
     width: 100%;
     height: 10%;
     display: flex;
@@ -51,8 +67,8 @@ h1{
 }
 .titulo{
 
-    border: solid 1px red;
-    width: 30%;
+    
+    width: 40%;
     height: 40%;
     margin-left: 10px;
     
@@ -63,7 +79,7 @@ h1{
 
     display: flex;
 
-    border: solid 1px red;
+    
     width: 20%;
     height: 40%;
     margin-right: 2%;
@@ -90,9 +106,9 @@ span{
 
 
 
-    border: solid 1px blue;
-    height: 90%;
-    width: 90%;
+    
+    height: 77%;
+    width: 100%;
     margin: 0 auto;
     
     background-image: url('https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/dachshund.jpg?crop=1.00xw:0.668xh;0,0.260xh');
@@ -109,9 +125,9 @@ span{
 
 .comentario{    
 
-    border: solid 1px blue;
+   
     width: 100%;
-    height: 14%;
+    height: 12%;
     display: flex;
     align-items: center;
     
@@ -127,4 +143,61 @@ span{
 }
 
 
+.imagen-2{
+
+
+
+   
+    height: 77%;
+    width: 100%;
+    margin: 0 auto;
+    
+    background-image: url('https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+}
+
+.imagen-3{
+
+
+
+    
+    height: 77%;
+    width: 90%;
+    margin: 0 auto;
+    
+    background-image: url('https://images.unsplash.com/photo-1587402092301-725e37c70fd8?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+}
+
+
+.imagen-4{
+
+
+
+    
+    height: 77%;
+    width: 90%;
+    margin: 0 auto;
+    
+    background-image: url('https://media.istockphoto.com/id/1227415751/es/foto/mesa-completa-de-comidas-italianas-en-platos-pizza-pasta-ravioles-carpaccio-ensalada-caprese-y.jpg?s=612x612&w=0&k=20&c=kr9K-KmsmpPO6Vysfb1o8ETCLTx-UCKiYOqCP0bIU5g=');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+}
 
