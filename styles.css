@@ -8,6 +8,7 @@ body{
 header{
 
     background-color: #F8F8FF;
+    width: 100%;
     
     height: 100px;
     display: flex;
@@ -22,13 +23,15 @@ header{
     flex-direction: column;
     
     padding-top: 50px;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     margin: 0;
-    gap: 100px;
+    
+    gap: 70px;
     
     
     align-items: center;
+    overflow-y: auto;
    
     
 }
@@ -46,11 +49,14 @@ h1{
     background-color: #F8F8FF;
     
     width: 50%;
-    height: 100%;
+    height: 75%;
     
-    margin: 20px;
+    
     
     flex-shrink: 0;
+    margin: 20px;
+    
+
     
     
     
@@ -130,6 +136,7 @@ span{
     height: 12%;
     display: flex;
     align-items: center;
+    margin-bottom: 5%;
     
     
 
@@ -182,13 +189,35 @@ span{
 }
 
 
+.caja-4{
+
+
+    background-color: #F8F8FF;
+    
+    width: 50%;
+    height: 75%;
+    
+   
+    
+    flex-shrink: 0;
+    padding-bottom: 40px;
+
+    margin-bottom: 50px;
+    
+    
+    
+
+
+}
+
+
 .imagen-4{
 
 
 
     
-    height: 77%;
-    width: 90%;
+    height: 75%;
+    width: 100%;
     margin: 0 auto;
     
     background-image: url('https://media.istockphoto.com/id/1227415751/es/foto/mesa-completa-de-comidas-italianas-en-platos-pizza-pasta-ravioles-carpaccio-ensalada-caprese-y.jpg?s=612x612&w=0&k=20&c=kr9K-KmsmpPO6Vysfb1o8ETCLTx-UCKiYOqCP0bIU5g=');
@@ -196,8 +225,27 @@ span{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
+    margin-bottom: 45px;
     
+    
+   
+
+}
+
+.comentario-4{    
+
+   
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+    
+    
+
+
 
 }
 
